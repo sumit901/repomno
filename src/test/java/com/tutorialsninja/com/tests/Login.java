@@ -19,6 +19,7 @@ public class Login {
 	public void loginWithValidCredentials() throws InterruptedException
 	{
 		System.out.println("I am adding some new code into this file");
+		System.out.println("Edit code directly");
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
