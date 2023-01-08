@@ -20,6 +20,7 @@ public class Login {
 	{
 		System.out.println("I am adding some new code into this file");
 		System.out.println("Edit code directly");
+		System.out.println("Put this code in new branch");
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
