@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="12" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-18T19:43:17 IST" name="Suite" finished-at="2022-12-18T19:43:17 IST" duration-ms="673">
+    <groups>
+      <group name="all">
+        <method signature="Register.registerByProvidingOnlyMandatoryFields()[pri:1, instance:groupingtests.Register@5c33f1a9]" name="registerByProvidingOnlyMandatoryFields" class="groupingtests.Register"/>
+        <method signature="Register.registerByProvidingAllFields()[pri:2, instance:groupingtests.Register@5c33f1a9]" name="registerByProvidingAllFields" class="groupingtests.Register"/>
+        <method signature="Login.loginWithValidCredentials()[pri:1, instance:groupingtests.Login@75d4a5c2]" name="loginWithValidCredentials" class="groupingtests.Login"/>
+        <method signature="Login.loginWithValidEmailAndInvalidPassword()[pri:2, instance:groupingtests.Login@75d4a5c2]" name="loginWithValidEmailAndInvalidPassword" class="groupingtests.Login"/>
+        <method signature="Login.loginWithInvalidEmailAndValidPassword()[pri:3, instance:groupingtests.Login@75d4a5c2]" name="loginWithInvalidEmailAndValidPassword" class="groupingtests.Login"/>
+        <method signature="Search.searchWithoutAnyProduct()[pri:3, instance:groupingtests.Search@36ebc363]" name="searchWithoutAnyProduct" class="groupingtests.Search"/>
+      </group> <!-- all -->
+      <group name="windows.smoke">
+        <method signature="Register.registerByProvidingOnlyMandatoryFields()[pri:1, instance:groupingtests.Register@5c33f1a9]" name="registerByProvidingOnlyMandatoryFields" class="groupingtests.Register"/>
+        <method signature="Login.loginWithValidCredentials()[pri:1, instance:groupingtests.Login@75d4a5c2]" name="loginWithValidCredentials" class="groupingtests.Login"/>
+      </group> <!-- windows.smoke -->
+      <group name="search">
+        <method signature="Search.searchWithoutAnyProduct()[pri:3, instance:groupingtests.Search@36ebc363]" name="searchWithoutAnyProduct" class="groupingtests.Search"/>
+      </group> <!-- search -->
+      <group name="windows.regression">
+        <method signature="Login.loginWithValidEmailAndInvalidPassword()[pri:2, instance:groupingtests.Login@75d4a5c2]" name="loginWithValidEmailAndInvalidPassword" class="groupingtests.Login"/>
+      </group> <!-- windows.regression -->
+      <group name="regression">
+        <method signature="Register.registerByProvidingOnlyMandatoryFields()[pri:1, instance:groupingtests.Register@5c33f1a9]" name="registerByProvidingOnlyMandatoryFields" class="groupingtests.Register"/>
+        <method signature="Register.registerByProvidingAllFields()[pri:2, instance:groupingtests.Register@5c33f1a9]" name="registerByProvidingAllFields" class="groupingtests.Register"/>
+        <method signature="Login.loginWithValidCredentials()[pri:1, instance:groupingtests.Login@75d4a5c2]" name="loginWithValidCredentials" class="groupingtests.Login"/>
+        <method signature="Login.loginWithInvalidEmailAndValidPassword()[pri:3, instance:groupingtests.Login@75d4a5c2]" name="loginWithInvalidEmailAndValidPassword" class="groupingtests.Login"/>
+        <method signature="Search.searchWithoutAnyProduct()[pri:3, instance:groupingtests.Search@36ebc363]" name="searchWithoutAnyProduct" class="groupingtests.Search"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="Login.loginWithValidCredentials()[pri:1, instance:groupingtests.Login@75d4a5c2]" name="loginWithValidCredentials" class="groupingtests.Login"/>
+      </group> <!-- sanity -->
+      <group name="login">
+        <method signature="Login.loginWithValidCredentials()[pri:1, instance:groupingtests.Login@75d4a5c2]" name="loginWithValidCredentials" class="groupingtests.Login"/>
+        <method signature="Login.loginWithValidEmailAndInvalidPassword()[pri:2, instance:groupingtests.Login@75d4a5c2]" name="loginWithValidEmailAndInvalidPassword" class="groupingtests.Login"/>
+        <method signature="Login.loginWithInvalidEmailAndValidPassword()[pri:3, instance:groupingtests.Login@75d4a5c2]" name="loginWithInvalidEmailAndValidPassword" class="groupingtests.Login"/>
+      </group> <!-- login -->
+      <group name="windows.sanity">
+        <method signature="Register.registerByProvidingAllFields()[pri:2, instance:groupingtests.Register@5c33f1a9]" name="registerByProvidingAllFields" class="groupingtests.Register"/>
+        <method signature="Login.loginWithInvalidEmailAndValidPassword()[pri:3, instance:groupingtests.Login@75d4a5c2]" name="loginWithInvalidEmailAndValidPassword" class="groupingtests.Login"/>
+        <method signature="Search.searchWithoutAnyProduct()[pri:3, instance:groupingtests.Search@36ebc363]" name="searchWithoutAnyProduct" class="groupingtests.Search"/>
+      </group> <!-- windows.sanity -->
+      <group name="register">
+        <method signature="Register.registerByProvidingOnlyMandatoryFields()[pri:1, instance:groupingtests.Register@5c33f1a9]" name="registerByProvidingOnlyMandatoryFields" class="groupingtests.Register"/>
+        <method signature="Register.registerByProvidingAllFields()[pri:2, instance:groupingtests.Register@5c33f1a9]" name="registerByProvidingAllFields" class="groupingtests.Register"/>
+      </group> <!-- register -->
+    </groups>
+    <test started-at="2022-12-18T19:43:17 IST" name="RegisterTest" finished-at="2022-12-18T19:43:17 IST" duration-ms="247">
+      <class name="groupingtests.Register">
+        <test-method signature="registerByProvidingOnlyMandatoryFields()[pri:1, instance:groupingtests.Register@5c33f1a9]" started-at="2022-12-18T19:43:17 IST" name="registerByProvidingOnlyMandatoryFields" finished-at="2022-12-18T19:43:17 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerByProvidingOnlyMandatoryFields -->
+        <test-method signature="registerByProvidingAllFields()[pri:2, instance:groupingtests.Register@5c33f1a9]" started-at="2022-12-18T19:43:17 IST" name="registerByProvidingAllFields" finished-at="2022-12-18T19:43:17 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerByProvidingAllFields -->
+      </class> <!-- groupingtests.Register -->
+    </test> <!-- RegisterTest -->
+    <test started-at="2022-12-18T19:43:17 IST" name="LoginTest" finished-at="2022-12-18T19:43:17 IST" duration-ms="68">
+      <class name="groupingtests.Login">
+        <test-method signature="loginWithValidCredentials()[pri:1, instance:groupingtests.Login@75d4a5c2]" started-at="2022-12-18T19:43:17 IST" name="loginWithValidCredentials" finished-at="2022-12-18T19:43:17 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method signature="loginWithValidEmailAndInvalidPassword()[pri:2, instance:groupingtests.Login@75d4a5c2]" started-at="2022-12-18T19:43:17 IST" name="loginWithValidEmailAndInvalidPassword" finished-at="2022-12-18T19:43:17 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidEmailAndInvalidPassword -->
+        <test-method signature="loginWithInvalidEmailAndValidPassword()[pri:3, instance:groupingtests.Login@75d4a5c2]" started-at="2022-12-18T19:43:17 IST" name="loginWithInvalidEmailAndValidPassword" finished-at="2022-12-18T19:43:17 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidEmailAndValidPassword -->
+      </class> <!-- groupingtests.Login -->
+    </test> <!-- LoginTest -->
+    <test started-at="2022-12-18T19:43:17 IST" name="SearchTest" finished-at="2022-12-18T19:43:17 IST" duration-ms="30">
+      <class name="groupingtests.Search">
+        <test-method signature="searchWithoutAnyProduct()[pri:3, instance:groupingtests.Search@36ebc363]" started-at="2022-12-18T19:43:17 IST" name="searchWithoutAnyProduct" finished-at="2022-12-18T19:43:17 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithoutAnyProduct -->
+      </class> <!-- groupingtests.Search -->
+    </test> <!-- SearchTest -->
+  </suite> <!-- Suite -->
+</testng-results>
